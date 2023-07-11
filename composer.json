@@ -38,7 +38,7 @@
            "symlink": true
           }
         }
-    },
+    }, 
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
