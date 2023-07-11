@@ -168,9 +168,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Sevenspan\Bunny\BunnyServiceProvider::class,
+
     ])->toArray(),
 
+    
     /*
     |--------------------------------------------------------------------------
     | Class Aliases

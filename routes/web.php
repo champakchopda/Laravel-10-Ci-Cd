@@ -3,7 +3,7 @@
 use Monocubed\Calc\Facades\Calc;
 
 use Illuminate\Support\Facades\Route;
-use Sevenspan\Bunny\Bunny;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ Route::get('generateUrl', function(){
   
   $media_url = 'builditindialogo.jpg';
 
-  return Bunny::generatePrivateImageUrl($media_url);
+  return FacadesBunny::generatePrivateImageUrl($media_url);
 });
 
 
