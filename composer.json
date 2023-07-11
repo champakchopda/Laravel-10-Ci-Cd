@@ -11,7 +11,7 @@
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
         "monocubed/calc": "^2.0",
-        "sevenspan/bunny": "@dev"
+       
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -30,19 +30,10 @@
         }
     },
 
-    "repositories": {
-        "dev-package": {
-          "type": "path",
-          "url": "package/sevenspan/bunny",
-          "options": {
-           "symlink": true
-          }
-        }
-    }, 
+
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/",
-            "Sevenspan\\Bunny\\": "package/sevenspan/bunny/src"
+            "Tests\\": "tests/"
         }
     },
     "scripts": {

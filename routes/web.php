@@ -3,8 +3,6 @@
 use Monocubed\Calc\Facades\Calc;
 
 use Illuminate\Support\Facades\Route;
-use Sevenspan\Bunny\Bunny;
-use Sevenspan\Bunny\Facades\Bunny as FacadesBunny;
 
 
 /*

@@ -8009,9 +8009,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "sevenspan/bunny": 20
-    },
+   
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
